@@ -1,0 +1,16 @@
+[jenkins-Master]
+10.1.1.56
+
+
+[jenkins-Master:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/demo.pem
+
+
+[jenkins-slave]
+10.1.1.179
+
+
+[jenkins-slave:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/demo.pem
